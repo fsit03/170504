@@ -1,4 +1,4 @@
-﻿請先抽空觀看影片，我們會進行課堂討論:
+請先抽空觀看影片，我們會進行課堂討論:
 
 
 最速排序法: (自動翻譯字幕)
@@ -9,8 +9,25 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 Sorting Algorithms Dance
 https://www.youtube.com/playlist?list=PLuE79vNc5Wi6q34LsQcaJ7ISQ8uOyMaL_
 
+如何交換:
+
+A. 標準寫法:
+    var temp = a;
+    a = b;
+    b = temp;
+
+B. 不使用暫存變數
+    x = x + y; 
+    y = x - y;
+    x = x - y;
 
 
+C. 另一種方式:
+    y = x + (x = y, 0);
+
+
+D. 陣列內容對號入座:
+   [x, y] = [y, x];
 
 
 
